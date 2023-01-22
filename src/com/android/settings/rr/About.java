@@ -1,24 +1,24 @@
 /*
  * About.java
- * 
+ *
  * Copyright 2014 westcrip <westcrip@westcrip-altankrk>
- * 
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
- * 
- * 
+ *
+ *
  */
 package com.android.settings.rr;
 
@@ -93,17 +93,17 @@ import java.util.ArrayList;
 @SearchIndexable
 public class About extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
-			
+
 public static final String TAG = "About";
-    
+
 private static final String RR_ROM_SHARE = "share";
-    
+
     Preference mSiteUrl;
     Preference mSourceUrl;
     Preference mFacebookUrl;
     Preference mDonateUrl;
     Preference mTelegramUrl;
-    
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -140,7 +140,7 @@ private static final String RR_ROM_SHARE = "share";
         if (preference == mSiteUrl) {
             launchUrl("http://resurrectionremix.com/");
         } else if (preference == mSourceUrl) {
-            launchUrl("https://github.com/ResurrectionRemix");
+            launchUrl("https://github.com/ResurrectionRemix-Revived");
         } else if (preference == mFacebookUrl) {
             launchUrl("https://www.facebook.com/resurrectionremixrom");
         } else if (preference == mDonateUrl) {
@@ -158,7 +158,7 @@ private static final String RR_ROM_SHARE = "share";
                 // If not handled, let preferences handle it.
                 return super.onPreferenceTreeClick(preference);
    			}
-         return true; 
+         return true;
     }
 
     private void launchUrl(String url) {

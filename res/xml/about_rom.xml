@@ -146,4 +146,16 @@
             resurrection:emailDev="akhilnarang.1999@gmail.com"/>
        </PreferenceCategory>          
 
+       <PreferenceCategory
+            android:key="dev_categorie_four"
+            android:title="@string/dev_categorie_title">
+
+       <com.android.settings.widgets.DeveloperPreference
+            android:title="SirRGB"
+            android:icon="@drawable/rr_dev_four_icon"
+            android:summary="@string/sirrgb_summary"
+            resurrection:nameDev="SirRGB"
+            resurrection:emailDev="sirrgb@proton.me"/>
+    </PreferenceCategory>
+
 </PreferenceScreen>
