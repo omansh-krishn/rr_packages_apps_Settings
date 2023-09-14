@@ -156,6 +156,18 @@
             android:summary="@string/sirrgb_summary"
             resurrection:nameDev="SirRGB"
             resurrection:emailDev="sirrgb@proton.me"/>
+       </PreferenceCategory>
+
+       <PreferenceCategory
+            android:key="dev_categorie_five"
+            android:title="@string/dev_categorie_title">
+
+       <com.android.settings.widgets.DeveloperPreference
+            android:title="Omansh Krishn"
+            android:icon="@drawable/rr_dev_five_icon"
+            android:summary="@string/omanshkrishn_summary"
+            resurrection:nameDev="Omansh Krishn"
+            resurrection:emailDev="omansh11597@gmail.com"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

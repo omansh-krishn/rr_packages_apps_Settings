@@ -269,6 +269,7 @@
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
     <string name="devs">Dev Tag</string>
     <string name="github_sirrgb">https://github.com/SirRGB</string>
+    <string name="github_omanshkrishn">https://github.com/omansh-krishn</string>
     <string name="github_westcrip">https://github.com/westcripp</string>
     <string name="github_varund7726">https://github.com/varund7726</string>
     <string name="github_akhilnarang">https://github.com/akhilnarang</string>
@@ -317,6 +318,7 @@
     <string name="andres_summary">● Developer \n● Maintainer</string>
     <string name="akhil_summary">● Developer \n● Maintainer \n● Script master</string>
     <string name="sirrgb_summary">● Developer \n● Maintainer</string>
+    <string name="omanshkrishn_summary">● Maintainer</string>
     <string name="brian_summary">● Developer \n● Maintainer</string>
     <string name="christopher_kardas_summary">● Moderator \n● Editor\n● Contributor</string>
     <string name="matt_summary">● Moderator \n● Editor\n● Contributor</string>
